@@ -1,89 +1,97 @@
----
----
-title: Mini Transformer Explorer
-emoji: 🤖
-colorFrom: blue
-colorTo: purple
-sdk: gradio
-sdk_version: "5.34.2"
-python_version: "3.10"
-app_file: app.py
-pinned: false
----
+# 🤖 Transformer Architecture Explorer
 
-# 🤖 Mini Transformer Explorer
+An interactive educational application that visualizes the internal workflow of the Transformer architecture using **PyTorch** and **Gradio**. The project demonstrates how modern Large Language Models process text through tokenization, embeddings, self-attention, and next-token prediction, making complex NLP concepts easy to understand.
 
-An educational Transformer implementation built from scratch using PyTorch and Gradio.
+## 🚀 Live Demo
 
-## Features
+🌐 **Try the application here:**  
+https://divyashree31-mini-transformer-explorer.hf.space
 
-✅ Tokenization
+## 📌 Features
 
-✅ Token Embeddings
+- Interactive Transformer Architecture Visualization
+- Tokenization & Vocabulary Mapping
+- Token Embeddings
+- Positional Embeddings
+- Query, Key & Value Generation
+- Self-Attention Mechanism
+- Attention Score Computation
+- Feed Forward Network
+- Transformer Block Workflow
+- Next Token Prediction
+- Top-3 Token Predictions
 
-✅ Positional Embeddings
-
-✅ Self-Attention Mechanism
-
-✅ Query, Key & Value Computation
-
-✅ Dot Product Attention
-
-✅ Softmax Attention Weights
-
-✅ Feed Forward Network
-
-✅ Transformer Block
-
-✅ Next Word Prediction
-
-✅ Top-3 Token Predictions
-
-## How It Works
-
-The application demonstrates the internal workflow of a Transformer model:
-
-1. Input Sentence
-2. Tokenization
-3. Token Embeddings
-4. Positional Embeddings
-5. Embedding Combination
-6. Query, Key, Value Generation
-7. Attention Score Calculation
-8. Softmax Normalization
-9. Attention Output
-10. Feed Forward Network
-11. Transformer Output
-12. Logits Generation
-13. Probability Distribution
-14. Top-3 Next Token Prediction
-
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - PyTorch
 - Gradio
 - Hugging Face Spaces
 
-## Educational Concepts Covered
+## 📂 Project Structure
 
-- Transformers
-- Attention Mechanism
-- Embeddings
-- Softmax
-- Context Understanding
-- Neural Networks
+```text
+Transformer-Architecture-Explorer/
+│── app.py
+│── requirements.txt
+│── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/divyashreepatil/Transformer-Architecture-Explorer-.git
+```
+
+Navigate to the project directory
+
+```bash
+cd Transformer-Architecture-Explorer
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+python app.py
+```
+
+## 🎯 Learning Objectives
+
+This project demonstrates the complete inference pipeline of a Transformer model, including:
+
+- Text Tokenization
+- Embedding Generation
+- Positional Encoding
+- Self-Attention
+- Context Representation
+- Feed Forward Network
+- Probability Distribution
 - Next Token Prediction
 
-## Future Enhancements
+## 🔮 Future Enhancements
 
-- Multi-Head Attention
+- Multi-Head Attention Visualization
 - Attention Heatmaps
-- Transformer Decoder Visualization
+- Interactive Embedding Visualization
+- Decoder-Only Transformer Architecture
 - GPT-style Text Generation
-- Interactive Embedding Visualizations
+- Beam Search & Sampling Strategies
 
-Created for learning Transformer architecture and Large Language Models.
+## 👩‍💻 Author
+
+**Divyashree Patil**
+
+Aspiring Generative AI & Machine Learning Engineer passionate about building practical AI applications, exploring Large Language Models, and developing interactive educational AI tools.
+
+⭐ If you found this project useful, consider giving it a star!
 
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
